@@ -8,8 +8,7 @@ root.title("Memory Game")
 root.geometry("470x550")
 root.configure(background='black')
 
-global matches, correct
-
+# list of matches behind cards
 matches = [1,1,2,2,3,3,4,4,5,5,6,6]
 random.shuffle(matches)
 
